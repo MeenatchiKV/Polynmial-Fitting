@@ -5,7 +5,7 @@ def error(f,x,y):
     return sp.sum((f(x)-y)**2)
 
 
-data = sp.genfromtxt("E:\\MLPY\\book1\\ch01\\data\\web.tsv",delimiter="\t")
+data = sp.genfromtxt("E:\\MLPY\\book1\\ch01\\data\\web_test.tsv",delimiter="\t")
 inflection = 3.5*7*24 #inflection point
 inflection=int(inflection)
 
